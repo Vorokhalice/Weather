@@ -1,4 +1,4 @@
-package com.example.weather;
+package com.example.weather.data.pojo;
 
 public class Main
 {

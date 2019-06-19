@@ -1,4 +1,7 @@
-package com.example.weather;
+package com.example.weather.data.database;
+
+import com.example.weather.data.database.entities.ForecastEntity;
+import com.example.weather.data.database.entities.WeatherEntity;
 
 import java.util.List;
 

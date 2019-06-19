@@ -1,7 +1,13 @@
-package com.example.weather;
+package com.example.weather.data;
 
 import android.content.Context;
 import android.util.Log;
+
+import com.example.weather.data.database.WeatherDB;
+import com.example.weather.data.pojo.WeatherDay;
+import com.example.weather.data.database.entities.ForecastEntity;
+import com.example.weather.data.database.entities.WeatherEntity;
+import com.example.weather.data.pojo.WeatherForecast;
 
 import java.util.ArrayList;
 import java.util.List;

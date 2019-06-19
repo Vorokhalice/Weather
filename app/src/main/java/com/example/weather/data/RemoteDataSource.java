@@ -1,7 +1,10 @@
-package com.example.weather;
+package com.example.weather.data;
 
 import android.util.Log;
 
+
+import com.example.weather.data.pojo.WeatherDay;
+import com.example.weather.data.pojo.WeatherForecast;
 
 import java.io.IOException;
 

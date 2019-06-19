@@ -1,4 +1,7 @@
-package com.example.weather;
+package com.example.weather.viewModels;
+
+import com.example.weather.data.database.entities.ForecastEntity;
+import com.example.weather.data.Repository;
 
 import java.util.List;
 

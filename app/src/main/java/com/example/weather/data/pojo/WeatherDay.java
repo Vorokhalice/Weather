@@ -1,4 +1,11 @@
-package com.example.weather;
+package com.example.weather.data.pojo;
+
+import com.example.weather.data.pojo.Clouds;
+import com.example.weather.data.pojo.Coord;
+import com.example.weather.data.pojo.Main;
+import com.example.weather.data.pojo.Sys;
+import com.example.weather.data.pojo.Weather;
+import com.example.weather.data.pojo.Wind;
 
 import java.util.List;
 public class WeatherDay

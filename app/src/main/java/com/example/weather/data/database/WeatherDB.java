@@ -1,4 +1,6 @@
-package com.example.weather;
+package com.example.weather.data.database;
+
+import com.example.weather.data.database.entities.*;
 
 import androidx.room.Database;
 import androidx.room.RoomDatabase;

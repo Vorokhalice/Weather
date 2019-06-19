@@ -1,4 +1,4 @@
-package com.example.weather;
+package com.example.weather.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -11,6 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+import com.example.weather.R;
+import com.example.weather.ui.fragments.DetailFragment;
+import com.example.weather.ui.fragments.ListFragment;
 
 
 public class MainActivity extends AppCompatActivity {

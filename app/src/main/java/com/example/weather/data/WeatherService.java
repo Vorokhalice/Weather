@@ -1,4 +1,7 @@
-package com.example.weather;
+package com.example.weather.data;
+
+import com.example.weather.data.pojo.WeatherDay;
+import com.example.weather.data.pojo.WeatherForecast;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

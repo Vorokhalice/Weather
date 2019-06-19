@@ -1,11 +1,15 @@
-package com.example.weather;
+package com.example.weather.ui.fragments;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.weather.data.database.entities.ForecastEntity;
+import com.example.weather.viewModels.MainViewModelForecast;
 import com.example.weather.R;
+import com.example.weather.data.Repository;
+import com.example.weather.ui.WeatherAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

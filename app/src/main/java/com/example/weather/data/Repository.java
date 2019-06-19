@@ -1,6 +1,11 @@
-package com.example.weather;
+package com.example.weather.data;
 
 import android.content.Context;
+
+import com.example.weather.data.pojo.WeatherDay;
+import com.example.weather.data.database.entities.ForecastEntity;
+import com.example.weather.data.database.entities.WeatherEntity;
+import com.example.weather.data.pojo.WeatherForecast;
 
 import java.util.List;
 import java.util.concurrent.Executors;
@@ -8,9 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 import androidx.lifecycle.LiveData;
 import androidx.work.ExistingPeriodicWorkPolicy;
-import androidx.work.OneTimeWorkRequest;
 import androidx.work.PeriodicWorkRequest;
-import androidx.work.WorkInfo;
 import androidx.work.WorkManager;
 
 public enum Repository {
