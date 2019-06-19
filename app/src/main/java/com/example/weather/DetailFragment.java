@@ -120,7 +120,7 @@ public class DetailFragment extends Fragment implements Observer<WeatherEntity> 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.detail_fragment,container,false);
-        MainViewModel mainViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
+        MainViewModelWeather mainViewModel = ViewModelProviders.of(this).get(MainViewModelWeather.class);
         repository = Repository.REPOSITORY;
         mainViewModel.loadData(repository);
         weatherData = mainViewModel.getWeatherData();

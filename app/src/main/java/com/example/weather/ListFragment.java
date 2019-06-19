@@ -32,7 +32,7 @@ public class ListFragment extends Fragment implements Observer<List<ForecastEnti
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.list_fragment, container, false);
-        MainViewModel mainViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
+        MainViewModelForecast mainViewModel = ViewModelProviders.of(this).get(MainViewModelForecast.class);
         repository = Repository.REPOSITORY;
         mainViewModel.loadDataWeek(repository);
         forecastData = mainViewModel.getForecastData();
